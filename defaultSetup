@@ -1,0 +1,8 @@
+#This file will be called  /etc/network/interfaces
+#It was written by the ad-hoc script, 
+#edits to the /etc/network/interfaces will be undone when ad-hoc script runs 
+
+
+auto lo
+iface lo inet loopback
+

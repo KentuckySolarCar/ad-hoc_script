@@ -1,0 +1,11 @@
+#This file will be called  /etc/network/interfaces
+#It was written by the ad-hoc script, 
+#edits to the /etc/network/interfaces will be undone when ad-hoc script runs 
+
+auto wlan0
+iface wlan0 inet static
+    address 192.168.1.1
+    netmask 255.255.255.0
+    wireless-channel 1
+    wireless-essid S_car_adHoc
+    wireless-mode ad-hoc
