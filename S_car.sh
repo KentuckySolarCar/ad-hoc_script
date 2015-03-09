@@ -1,6 +1,10 @@
 #!/bin/sh
 
 #SSID=()
+#sudo aptitude install crontab
+# crontab
+# */5 * * * * /home/ramesh/backup.sh
+
 
 RESULT=$(iwlist wlan0 scan  | grep ESSID  | grep -Po '".*?"')
 
